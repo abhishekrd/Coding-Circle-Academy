@@ -293,7 +293,7 @@ flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .pic11{
         width:25rem;
