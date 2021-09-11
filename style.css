@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+   margin: 1rem 6rem 0.5rem 6rem;
+}
+
+:root{
+    --font-secondary:open sans ;
+}
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+.loginbtn{
+    background-color:#0A55FF;
+    color: white;
+    padding:0.2rem 0.8rem 0.2rem 0.8rem;
+    border: 0.1rem solid #0A55FF;
+    border-radius: 1rem;
+    z-index: 2;
+}
+.loginbtn:hover{
+    background-color:#04319c;
+    color: white;
+    padding:0.2rem 0.8rem 0.2rem 0.8rem;
+    border: 0.1rem solid #04319c;
+    border-radius: 1rem;
+    transition:all 0.3s;
+}
+
+.Navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.2rem 2rem 0 2rem;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 1.3rem;
+    font-family: var(--font-secondary);
+    padding:0.2rem 0.8rem 0.2rem 0.8rem;
+    z-index: 2;
+}
+nav ul li:hover{
+    list-style: none;
+    margin: 1.3rem;
+    font-family: var(--font-secondary);
+    background-color: rgb(0, 89, 255);
+    color: white;
+    border-radius: 1rem;
+    z-index: 2;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.logo{
+    width:7.81rem;
+    height:3.3rem;
+}
+
+.Home{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4.75rem 0 4.75rem;
+    align-items: center;    height: 100%;
+    
+}
+.name{
+    font-family: var(--font-secondary);
+    font-size: 4.5rem;
+    color: #5790FF;
+    margin-bottom: 0;
+    text-align:center;
+}
+.tag{
+    background-color: rgb(12, 10, 10);
+    color: white;
+    margin-top:0;
+    font-family: var(--font-secondary);
+    border-radius: 1rem;
+    padding:0.2rem 1.2rem 0.2rem 1.2rem;
+    border: 0.1rem solid rgb(12, 10, 10);
+}
+
+hr{
+    width: 80%;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+    margin: 0 2rem 0 2rem;
+    background-image: linear-gradient(180deg, rgb(0, 119, 255), rgb(248, 248, 248));
+    border-radius: 2rem;
+    height: 25rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(197, 197, 197);
+}
+.pic2{
+    width:100%;
+    margin-top: 1rem;
+    padding-left:5rem;
+}
+.pic2info li{
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    list-style-type: disc;
+    text-align:inherit;
+    padding-left: 2rem;
+    line-height: 2.5rem;
+}
+
+.container3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+.pic{
+    width: 30%;
+    margin-left:20rem;
+}
+.pic3info{
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    margin-right: 16rem;
+    text-align: left;
+}
+.pic3info_{
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    margin-right: 11rem;
+    text-align: left;
+}
+.bigcontainer3{
+    background-image: url("Path\ 10.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+   
+}
+
+.container4{
+    display:grid;
+   
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap:7rem;
+    row-gap: 2.5rem;
+    margin-top: 2rem;
+}
+.con4{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: var(--font-secondary);
+}
+p{
+    font-family: var(--font-secondary);
+}
+
+.bigcontainer5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background-color: rgb(245, 245, 245);
+    padding:1.5rem;
+    border-radius:1.4rem;
+    margin: 0 2rem 2rem 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(207, 207, 207);
+}
+.card ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: var(--font-secondary);
+}
+
+.mainlist{
+    font-weight: bolder;
+    font-size: 1rem;
+    background:rgb(207, 207, 207);
+    padding:0.6rem 1rem 0.6rem 1rem;
+    border-radius:1.5rem;
+    margin-bottom: 1.3rem;
+}
+.icons{
+    color: rgb(255, 38, 0);
+}
+.icon{
+    color: rgb(0, 89, 255);
+}
+.icon-section{
+    margin-top:3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+.get{
+    background-color: rgb(0, 68, 255);
+    color: white;
+    font-size: 1.2rem;
+    border: 0.1rem solid rgb(0, 68, 255);
+    margin: 1rem 0 0 2rem;
+    padding:0.3rem 0.6rem 0.3rem 0.6rem;
+    border-radius:0.8rem;
+}
+.get:hover{
+    background-color: rgb(4, 52, 184);
+    color: white;
+    font-size: 1.2rem;
+    border: 0.1rem solid rgb(2, 39, 139);
+    margin: 1rem 0 0 2rem;
+    padding:0.3rem 0.6rem 0.3rem 0.6rem;
+    border-radius:1rem;
+}
+
+.courses{
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 2rem;
+    margin: 3rem 0 2rem 0;
+}
+#main{
+    border-style: solid;
+    border-color:red;
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem ;
+    border-radius:2rem;
+    
+}
+.main_{
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom:0;
+}
+
+.line{
+    margin:3rem 0 1rem 24rem;
+    background-color: rgb(58, 58, 58);
+    width: 20rem;
+    height: 0.2rem;
+}
+
+.container6{
+    background-color: rgb(209, 146, 63);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer{
+    background-color: rgb(209, 146, 63);
+}
+.foothead{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+li{
+    list-style: none;
+    font-family: var(--font-secondary);
+}
+
+.last{
+    font-family: var(--font-secondary);
+    text-align: center;
+    padding:2rem 0 2rem 0;
+}
+
+@media screen and (min-width:952px){
+    .menutoggle{
+      display: none;
+    }
+    }
+    @media (max-width:952px){
+    html{
+        margin: 1rem 1rem 0.2rem 1rem;
+    }
+
+
+        .menutoggle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        cursor:pointer;
+        margin-right: 1rem;
+        width:30px;
+        height:30px;
+        z-index: 1000;
+    }
+    
+    .menutoggle i{
+        position: absolute;
+    }
+    .menutoggle.active{
+        
+        position: fixed;
+        top: 10px;
+        right:10px;
+        background: red;
+        color: white;
+    }
+    .menutoggle.active i:nth-child(1){
+        display: none;
+    }
+    .menutoggle.active i:nth-child(2){
+        display: block;
+    }
+    .menutoggle i:nth-child(1){
+        display: block;
+    }
+    .menutoggle i:nth-child(2){
+        display: none;
+    }
+
+.navlist.active{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(228, 228, 228);
+    color:rgb(37, 37, 37);
+    z-index: 999;
+}
+.navlist.active ul li{
+    font-size: 1rem;
+}
+.navlist {
+    display: none;
+}
+.nav_list{
+display: flex;
+flex-direction: column;
+}
+}
+@media screen and (max-width: 400px){
+    .brand{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:952px){
+    .Home{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .pic1{
+        width: 85%;
+    }
+    .pic1div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name{
+        text-align: center;
+        font-size: 3.2rem;
+    } 
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+        margin: 1rem 1rem 1rem 1rem;
+    }   
+    
+    .pic2info{
+        padding: 1 1.5rem 0 1.5rem;
+        margin: 1rem 1.5rem 1rem 1.5rem;
+
+    }
+    .pic2{
+            width:100%;
+            margin-top: 2rem;
+            padding-left:2.8rem;
+    }
+    .pic2info li{
+       list-style-type: disc;
+       line-height: 1.5rem;
+       text-align: inherit;
+    }
+    
+    .bigcontainer3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic{
+        width: 65%;
+        margin-left:1rem;
+    }
+    
+    .pic3info{
+        font-family: var(--font-secondary);
+        font-size: 0.8rem;
+        margin-right: 1rem;
+        text-align:right;
+    }
+    .pic3info_{
+        font-family: var(--font-secondary);
+        font-size: 0.8rem;
+        margin-right: 0rem;
+        text-align: left;
+    }
+    .bigcontainer5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container6{
+        display:block;
+        margin-left: 2rem;
+        margin-right: 2rem;   
+    }
+    .foot{
+        padding-top: 1.8rem;
+    }
+    .bigcontainer4{
+        margin:2rem 0 2rem 0rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .con4pic{
+        width: 65%;
+    }
+    .line{
+        display: none;
+    }
+    .con4p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .con4p p{
+        text-align: center;
+    }
+    .footer{
+        margin: 0 0 0 0;
+    }
+}
+.insta{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(255, 11, 64);
+}
+.fb{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(11, 76, 255);
+}
+.tweet{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(11, 137, 255);
+}
+.insta:hover{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(167, 4, 40);
+}
+.fb:hover{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(3, 35, 124);
+}
+.tweet:hover{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(2, 90, 172);
+}
+
+
