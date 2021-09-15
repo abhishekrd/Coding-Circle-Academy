@@ -113,7 +113,7 @@ nav ul li:hover{
 .mainlist{
     text-align: center;
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     background:rgb(207, 207, 207);
     padding:0.6rem 2rem 0.6rem 2rem;
     border-radius:1.5rem;
@@ -173,7 +173,7 @@ nav ul li:hover{
     width: 19rem;
     margin-left:2rem;
     font-family: var(--font-secondary);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     margin-bottom:0;
 }
