@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-   margin: 1rem 6rem 0.5rem 6rem;
-}
+
 
 :root{
     --font-secondary:open sans ;
@@ -72,7 +70,7 @@ nav ul li:hover{
 .Home{
     display: flex;
     justify-content: space-between;
-    margin: 0 4.75rem 0 4.75rem;
+    margin: 0 8rem 0 8rem;
     align-items: center;    height: 100%;
     
 }
@@ -105,7 +103,7 @@ hr{
     justify-content: space-between;
     align-items: center;
     padding-right: 3rem;
-    margin: 0 2rem 0 2rem;
+    margin: 0 8rem 0 8rem;
     background-image: linear-gradient(180deg, rgb(0, 119, 255), rgb(248, 248, 248));
     border-radius: 2rem;
     height: 25rem;
@@ -130,6 +128,7 @@ hr{
     justify-content: space-between;
     align-items: center;
     margin-top: 3rem;
+    margin: 0 5rem 0 5rem;
 }
 .pic{
     width: 30%;
@@ -147,13 +146,7 @@ hr{
     margin-right: 11rem;
     text-align: left;
 }
-.bigcontainer3{
-    background-image: url("Path\ 10.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-   
-}
+
 
 .container4{
     display:grid;
@@ -182,9 +175,11 @@ p{
 
 }
 .card{
-    background-color: rgb(245, 245, 245);
+    width: 19rem;
+    height: 28rem;
+    background-color: rgb(236, 236, 236);
     padding:1.5rem;
-    border-radius:1rem;
+    border-radius:0.8rem;
     margin: 0 2rem 2rem 2rem;
     box-shadow: 0.5rem 0.5rem 0.5rem rgb(207, 207, 207);
 }
@@ -195,10 +190,11 @@ p{
 }
 
 .mainlist{
+    text-align: center;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background:rgb(207, 207, 207);
-    padding:0.6rem 1rem 0.6rem 1rem;
+    padding:0.6rem 2rem 0.6rem 2rem;
     border-radius:1.5rem;
     margin-bottom: 1.3rem;
 }
@@ -244,38 +240,44 @@ p{
     border-style: solid;
     border-color:red;
     border-width: 0.1rem 0.1rem 0.1rem 0.1rem ;
-    border-radius:1rem;
+    height: 26rem;
+    border-radius:0 0 0.8rem 0.8rem;
     
 }
 .main_{
-    color: red;
-    font-size: 1.5rem;
+    color: rgb(255, 253, 253);
+    background-color: red;
+    background-position: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 19rem;
+    margin-left:2rem;
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom:0;
 }
-
 .line{
-    margin:3rem 0 1rem 24rem;
+    margin:3rem 0 1rem 28rem;
     background-color: rgb(58, 58, 58);
     width: 20rem;
     height: 0.2rem;
 }
 
 .container6{
-    background-color: rgb(209, 146, 63);
+    background-color: #E1EEF8;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .footer{
-    background-color: rgb(209, 146, 63);
+    background-color: #E1EEF8;
 }
 .foothead{
     font-size: 1.2rem;
     text-decoration: underline;
     font-family: var(--font-secondary);
     font-weight: bold;
-    color: white;
+    color: #5f90ff;;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
