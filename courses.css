@@ -272,20 +272,20 @@ nav ul li:hover{
     margin-left: 2rem;
 }
 .container6{
-    background-color: rgb(209, 146, 63);
+    background-color: #e1eef8;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .footer{
-    background-color: rgb(209, 146, 63);
+    background-color: #e1eef8;
 }
 .foothead{
     font-size: 1.2rem;
     text-decoration: underline;
     font-family: var(--font-secondary);
     font-weight: bold;
-    color: white;
+    color: #5f90ff;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
